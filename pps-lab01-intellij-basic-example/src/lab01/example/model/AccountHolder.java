@@ -10,6 +10,7 @@ public class AccountHolder {
     private final int id;
     private final String name;
     private final String surname;
+    private boolean goldAccount;
 
     public AccountHolder(final String name, final String surname, final int id) {
         this.name = name;
@@ -17,6 +18,13 @@ public class AccountHolder {
         this.id = id;
     }
 
+    public boolean isGoldAccount() {
+        return this.goldAccount;
+    }
+
+    public void setGoldAccount(boolean goldAccount) {
+        this.goldAccount = goldAccount;
+    }
     /**
      * Retrieve the name of the person registered as possible account holder
      * @return the name of the holder
