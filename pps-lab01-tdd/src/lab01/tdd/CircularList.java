@@ -1,7 +1,7 @@
 package lab01.tdd;
 
 import java.util.Optional;
-
+import java.lang.Integer;
 /**
  * Represents a circular list of integers, where the following element of the last one into the list
  * is the first element of the list itself.
